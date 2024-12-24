@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth');
-const { checkPermission } = require('../middleware/rbac');
+const { checkPermission } = require('../middleware/rbac.js');
 const AuthService = require('../Service/auth.service');
 const ResponseHandler = require('../utils/responsehandler.js');
 const { PERMISSIONS } = require('../config/roles');
