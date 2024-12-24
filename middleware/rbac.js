@@ -1,6 +1,6 @@
 // middleware/rbac.js
 const { ROLE_PERMISSIONS } = require('../config/roles');
-const ResponseHandler = require('../utils/responseHandler');
+const ResponseHandler = require('../utils/responsehandler.js');
 
 const checkPermission = (requiredPermission) => {
     return async (req, res, next) => {
