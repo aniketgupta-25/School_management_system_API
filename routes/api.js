@@ -4,7 +4,7 @@ const router = express.Router();
 const auth = require('../middleware/auth');
 const { checkPermission } = require('../middleware/rbac');
 const AuthService = require('../Service/auth.service');
-const ResponseHandler = require('../utils/responseHandler');
+const ResponseHandler = require('../utils/responsehandler.js');
 const { PERMISSIONS } = require('../config/roles');
 
 // Auth routes
