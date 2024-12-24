@@ -6,7 +6,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const rateLimit = require('express-rate-limit');
 const connectDB = require('./config/database');
-const ResponseHandler = require('./utils/responseHandler');
+const ResponseHandler = require('./utils/responsehandler.js');
 
 // Initialize express
 const app = express();
